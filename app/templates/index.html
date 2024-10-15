@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/pub/output.css">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="/app/static/css/style.css">
+    <link rel="icon" href="/app/static/img/path.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9e3bcbb946.js" crossorigin="anonymous"></script>
 </head>
-<body>
-test1
+<body class="bg-nemo font-sans">
+    <div class=" bg-mainpage-gradient bg-opacity-60 text-white border-2 rounded-3xl border-none m-8 shadow-2xl  md:h-[900px]">
+        <header class="m-14">
+            <div class="cont flex gap-5 p-5 justify-between pt-10 items-center">
+                <div class="logo flex gap-3 font-bold text-2xl">
+                    <a href="#">Finlance</a>
+                    <img src="/app/static/img/path.svg" alt="" width="30px" height="30px">
+                </div>
+                <div class="list">
+                    <nav class="flex gap-20">
+                        <ul class="flex gap-16 font-bold text-xl">
+                            <a href=""><li>Page 1</li></a>
+                            <a href=""><li>Page 2</li></a>
+                            <a href=""><li>Page 3</li></a>
+                            <a href=""><li>Page 4</li></a>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="buttons gap-10 flex">
+                    <a href="./login.html">
+                        <button class="border-2 w-[155px] h-[55px] rounded-2xl border-none bg-for-buttons hover:bg- cursor-pointer font-semibold">Вхід</button>
+                    </a>
+                    <a href="./register.html">
+                        <button class="border-2 w-[155px] h-[55px] rounded-2xl border-none bg-for-buttons hover:bg- cursor-pointer font-semibold">Реєстрація</button>
+                    </a>
+                </div>
+            </div>
+        </header>
+    
+        <main>
+            <div class="container w-100% flex mt-20 mx-auto h-auto ">
+                <div class="info w-50% p-20">
+                    <div class="text">
+                        <h5 class="font-semibold text-3xl pb-4">Finlance</h5>
+                        <h1 class="font-semibold text-4xl pb-10"><span class="font-bold text-5xl">Lorem ipsum.</span></br>Lorem ipsum dolor sit amet consectetur.</h1>
+                        <hr class="h-0.5 w-[450px] mb-4 border-t-0 bg-white opacity-40" />
+                        <p class="w-[511px] text-sm opacity-65">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien lectus sit tristique rhoncus, nisi, malesuada. Tellus consequat </p></br>
+                        <a href="#">
+                            <button class="mt-14 border-2 w-[360px] h-[55px] rounded-2xl p-2.5 border-none bg-for-buttons hover:bg- cursor-pointer font-semibold">Переглянути попередні дані</button>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="img w-50%">
+                    <img src="/app/static/img/Pixel True Mockup 1(1).svg" width="811px" height="589px" alt="">
+                </div>
+            </div>
+        </main>
+        
+    </div>
+    <script src="/app/static/js/main.js" defer></script>
 </body>
 </html>
