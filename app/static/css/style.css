@@ -124,7 +124,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -588,64 +588,287 @@ video {
   }
 }
 
-.visible {
-  visibility: visible;
+.m-14 {
+  margin: 3.5rem;
 }
 
-.collapse {
-  visibility: collapse;
+.m-2\.5 {
+  margin: 0.625rem;
 }
 
-.relative {
-  position: relative;
+.m-8 {
+  margin: 2rem;
 }
 
-.block {
-  display: block;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.table {
-  display: table;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
-.contents {
-  display: contents;
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
-.hidden {
-  display: none;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.border-collapse {
-  border-collapse: collapse;
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.flex {
+  display: flex;
 }
 
-.resize {
-  resize: both;
+.grid {
+  display: grid;
 }
 
-.border {
-  border-width: 1px;
+.h-0\.5 {
+  height: 0.125rem;
 }
 
-.bg-red-800 {
+.h-\[55px\] {
+  height: 55px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-\[155px\] {
+  width: 155px;
+}
+
+.w-\[360px\] {
+  width: 360px;
+}
+
+.w-\[450px\] {
+  width: 450px;
+}
+
+.w-\[511px\] {
+  width: 511px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-t-0 {
+  border-top-width: 0px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-none {
+  border-style: none;
+}
+
+.bg-for-buttons {
   --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+  background-color: rgb(255 90 5 / var(--tw-bg-opacity));
 }
 
-.text-9xl {
-  font-size: 8rem;
+.bg-nemo {
+  --tw-bg-opacity: 1;
+  background-color: rgb(125 138 246 / var(--tw-bg-opacity));
+}
+
+.bg-nemo-main {
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 141 246 / var(--tw-bg-opacity));
+}
+
+.bg-register-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(123 104 238 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
+.bg-mainpage-gradient {
+  background-image: radial-gradient(circle, rgba(155,180,255,1) 29%, rgba(84,129,255,1) 96%);
+}
+
+.bg-register-gradient {
+  background-image: radial-gradient(circle, rgba(46, 67, 240, 0.61) 61%, rgba(63, 83, 244, 0.73) 73%, rgba(102, 119, 255, 1.0) 100%);
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-2\.5 {
+  padding: 0.625rem;
+}
+
+.p-20 {
+  padding: 5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pl-36 {
+  padding-left: 9rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
-.outline {
-  outline-style: solid;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-65 {
+  opacity: 0.65;
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 768px) {
+  .md\:h-\[900px\] {
+    height: 900px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-auto {
+    height: auto;
+  }
 }
