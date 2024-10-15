@@ -11,4 +11,4 @@ class ChooseClass(db.Model):
     estateAvailability = db.Column(db.String(64), index=True)
 
     def __repr__(self):
-        return f"<ChooseClass {self.age}"
+        return f"<ChooseClass {self.id}, {self.age}, {self.actualTerm}, {self.marriageTerm}, {self.marriageNumber}, {self.childrenNumber}, {self.dependentsNumber}, {self.estateAvailability}"
