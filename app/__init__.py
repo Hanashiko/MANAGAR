@@ -12,12 +12,11 @@ def create_app(config_class=Config):
     from app.main import bp as main_bp
     app.register_blueprint(main_bp)
 
-    from app.chooseClass import bp as posts_bp
-    app.register_blueprint(posts_bp, url_prefix='/chooseClass')
+    from app.chooseClass import bp as posts_bp200
+    app.register_blueprint(posts_bp200, url_prefix='/chooseClass')
 
     @app.route('/test/')
     def test_page():
-        # return "saddsa"
         return render_template("test.html")
     
     return app
