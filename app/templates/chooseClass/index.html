@@ -1,0 +1,24 @@
+{% extends 'test.html' %}
+
+{% block content %}
+    <span class="title"><h1>{% block title %} The Posts Page {% endblock %}</h1></span>
+    <div class="content">
+        <h2>This is the posts Flask blueprint</h2>
+        {% for chooseClass in chooseClass %}
+        <div class="chooseClass">
+            <p><b>#{{ chooseClass.id }}</b></p>
+            <p class="title">
+                <b>
+                    <a href="#">
+                        {{ chooseClass.age }}
+                    </a>
+                </b>
+            </p>
+            <div class="content">
+                <p>{{ chooseClass.content }}</p>
+            </div>
+            <hr>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
